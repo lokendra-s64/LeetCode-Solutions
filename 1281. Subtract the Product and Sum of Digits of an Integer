@@ -13,4 +13,4 @@ public:
         int ans = p-sum;
         return ans;
     }
-}
+}:
