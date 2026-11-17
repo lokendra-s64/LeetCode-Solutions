@@ -1,0 +1,13 @@
+class Solution {
+public:
+    string toHex(int num) {
+        if(num==0)return "0";
+        string h="0123456789abcdef",ans="";
+        unsigned int n=num;
+        while(n){
+            ans=h[n&15]+ans;
+            n>>=4;
+        }
+        return ans;
+    }
+};
