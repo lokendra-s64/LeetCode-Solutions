@@ -10,6 +10,6 @@ public:
             }
             temp /= 10;
         }
-        return count
+        return count;
     }
 };
